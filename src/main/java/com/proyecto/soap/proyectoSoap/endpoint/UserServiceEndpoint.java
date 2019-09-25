@@ -23,7 +23,7 @@ public class UserServiceEndpoint {
 	@ResponsePayload
 	public GetUserDetailsResponse getUser(@RequestPayload final GetUserDetailsRequest request) {
 		GetUserDetailsResponse response = new GetUserDetailsResponse();
-		response.getUsers().add((User) userRepository.getUsers(request.getName()));
+		response.getUsers().addAll(userRepository.getUsers(request.getName()));
 		return response;
 	}
 	

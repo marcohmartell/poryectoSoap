@@ -5,9 +5,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.proyecto.soap.jaxb.Address;
-import com.proyecto.soap.jaxb.AddressType;
-import com.proyecto.soap.jaxb.User;
+import https.www_proyecto_com.userservice.Address;
+import https.www_proyecto_com.userservice.AddressType;
+import https.www_proyecto_com.userservice.User;
 
 @Component
 public class UserRepository {
